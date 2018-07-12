@@ -5,4 +5,11 @@ title: Ievgen Redko
 <div class="blurb">
 	<h1>Ievgen Redko</h1>
 	<p>Associate professor at Hubert Curien laboratory, University Jean Monnet of Saint-Etienne</p>
+	
+<h1>Recent news</h1>
+	<ul class="posts">
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="https://arxiv.org/abs/1806.10861">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
 </div><!-- /.blurb -->
