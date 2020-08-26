@@ -2,15 +2,18 @@
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
 body {
+    font-family: "Source Sans Pro";
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
+    font-family: "Source Sans Pro";
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
+    font-family: "Source Sans Pro";
     display: inline;
     margin-right: 20px;
 }
